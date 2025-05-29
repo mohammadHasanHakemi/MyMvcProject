@@ -1,0 +1,89 @@
+@model MyMvcProject.Models.AlbumMusicViewModel
+@{
+    Layout = "~/Views/Shared/_Dashboard.cshtml" ;
+}
+        <!-- Main Content -->
+        <main class="flex-1 p-8">
+            <header class="bg-white shadow rounded-lg p-6 mb-8">
+                <h1 class="text-2xl font-bold text-gray-800">مدیریت محصولات</h1>
+                <p class="text-gray-600">لیست تمام محصولات موجود در سیستم</p>
+            </header>
+
+            <!-- Search and Filter -->
+            <div class="bg-white rounded-lg shadow p-6 mb-8">
+                <div class="flex flex-wrap gap-4">
+                    <div class="flex-1">
+                        <input type="text" placeholder="جستجوی محصول..." class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <select class="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="">همه دسته‌بندی‌ها</option>
+                            <option value="electronics">الکترونیک</option>
+                            <option value="clothing">پوشاک</option>
+                            <option value="books">کتاب</option>
+                        </select>
+                    </div>
+                    <div>
+                        <a class="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition duration-200" asp-action="AddMusic" asp-controller="Musics">
+                           موزیک جدید
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                 @if(Model.Musics!=null&&Model.Albums!= null&&Model.Musics.Any()){
+                @foreach(var Music in Model.Musics)
+                {
+                    
+                    <div class="bg-white rounded-lg shadow overflow-hidden">
+                    <div class="relative">
+                       <img src="@Url.Content($"~/Upload/{Music.PosterPath}")" alt="محصول" class="w-full h-48 object-cover" />
+
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">@Music.Name</h3>
+                        <p class="text-gray-600 text-sm mt-1">@Music.Property</p>
+                        <p class="text-gray-600 text-sm mt-1">نام آلبوم: @(Music.Album != null ? Music.Album.Name : "بدون آلبوم")</p>
+                        <audio controls class="w-full">
+                        <source src="@Url.Content($"~/Upload/{Music.MusicPath}")" type="audio/mpeg" >
+                        مرورگر شما از پخش‌کننده صوتی پشتیبانی نمی‌کند.
+                        </audio>
+                        <div class="mt-4 flex items-center justify-between">
+                            <span class="text-lg font-bold text-gray-900"></span>
+                            <div class="flex space-x-2 space-x-reverse">
+                                <a asp-action="EditMusic" asp-controller="Musics" asp-route-id="@Music.Id" class="text-blue-600 hover:text-blue-900">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
+                                    </svg>
+                                </a>
+                                   <a href="#" onclick="if (confirm('آیا از حذف آلبوم مطمئن هستید؟')) { document.getElementById('delete-form-@Music.Id').submit(); }"
+               class="text-red-600 hover:text-red-800">                                <button class="text-red-600 hover:text-red-900">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
+                                    </svg>
+                                </button>
+                                </a>
+
+            <form id="delete-form-@Music.Id"
+                  asp-action="DeleteMusic"
+                  asp-controller="Musics"
+                  asp-route-id="@Music.Id"
+                  method="post"
+                  style="display:none;">
+                @Html.AntiForgeryToken()
+            </form>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                }
+                }
+                else{
+                   @Html.Raw("<p>موزیکی یافت نشد</p>") 
+                }
+                
+            </div>
+        </main>

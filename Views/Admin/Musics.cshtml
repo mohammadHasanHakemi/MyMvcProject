@@ -1,0 +1,115 @@
+@model MyMvcProject.Models.AlbumMusicViewModel
+@{
+    Layout = "~/Views/Shared/_Dashboard.cshtml" ;
+}
+        <!-- Main Content -->
+        <main class="flex-1 p-8">
+            <header class="bg-white shadow rounded-lg p-6 mb-8">
+                <h1 class="text-2xl font-bold text-gray-800">مدیریت محصولات</h1>
+                <p class="text-gray-600">لیست تمام محصولات موجود در سیستم</p>
+            </header>
+
+            <!-- Search and Filter -->
+            <div class="bg-white rounded-lg shadow p-6 mb-8">
+                <div class="flex flex-wrap gap-4">
+                    <div class="flex-1">
+                        <input type="text" placeholder="جستجوی محصول..." class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <select class="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="">همه دسته‌بندی‌ها</option>
+                            <option value="electronics">الکترونیک</option>
+                            <option value="clothing">پوشاک</option>
+                            <option value="books">کتاب</option>
+                        </select>
+                    </div>
+                    <div>
+                        <a class="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition duration-200" asp-action="AddMusic" asp-controller="Admin">
+                           موزیک جدید
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                 @if(Model.Musics!=null&&Model.Albums!= null&&Model.Musics.Any()){
+                @foreach(var Music in Model.Musics)
+                {
+                    
+                    <div class="bg-white rounded-lg shadow overflow-hidden">
+                    <div class="relative">
+                        <img src="'@Url.Content($"~/Upload/{Music.MusicPath}")'" alt="محصول" class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-semibold text-gray-800">@Music.Name</h3>
+                        <p class="text-gray-600 text-sm mt-1">@Music.Property</p>
+                        <div class="mt-4 flex items-center justify-between">
+                            <span class="text-lg font-bold text-gray-900">@Music.Album.Name</span>
+                            <div class="flex space-x-2 space-x-reverse">
+                                <button class="text-blue-600 hover:text-blue-900">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
+                                    </svg>
+                                </button>
+                                <button class="text-red-600 hover:text-red-900">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                }
+                }
+                else{
+                   @Html.Raw("<p>موزیکی یافت نشد</p>") 
+                }
+                <!-- Product Card 1 -->
+            </div>
+
+            <!-- Pagination -->
+            <div class="bg-white px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6 mt-8 rounded-lg">
+                <div class="flex-1 flex justify-between sm:hidden">
+                    <button class="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                        قبلی
+                    </button>
+                    <button class="mr-3 relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                        بعدی
+                    </button>
+                </div>
+                <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+                    <div>
+                        <p class="text-sm text-gray-700">
+                            نمایش
+                            <span class="font-medium">۱</span>
+                            تا
+                            <span class="font-medium">۱۲</span>
+                            از
+                            <span class="font-medium">۴۸</span>
+                            نتیجه
+                        </p>
+                    </div>
+                    <div>
+                        <nav class="relative z-0 inline-flex rounded-md shadow-sm -space-x-px" aria-label="Pagination">
+                            <button class="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
+                                قبلی
+                            </button>
+                            <button class="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50">
+                                ۱
+                            </button>
+                            <button class="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50">
+                                ۲
+                            </button>
+                            <button class="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50">
+                                ۳
+                            </button>
+                            <button class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
+                                بعدی
+                            </button>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </main>

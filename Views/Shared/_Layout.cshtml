@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - وبسایت موزیک های رادین</title>
+    @RenderSection("MetaTags", required: false)
+    <script src="https://cdn.jsdelivr.net/npm/@@tailwindcss/browser@4"></script>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MyMvcProject.styles.css" asp-append-version="true" />
+    
+</head>
+<body>
+    <!-- loader  -->
+<div class="loader">
+<!-- From Uiverse.io by mrpumps31232 --> 
+<!-- From Uiverse.io by Smit-Prajapati --> 
+<div class="loaderr">
+    <div class="box">
+      <div class="logo">
+<i class="fa fa-headphones fa-6" aria-hidden="true" style="font-size: 48px;"></i>
+          <path
+            d="M38.0481 4.82927C38.0481 2.16214 40.018 0 42.4481 0H51.2391C53.6692 0 55.6391 2.16214 55.6391 4.82927V40.1401C55.6391 48.8912 53.2343 55.6657 48.4248 60.4636C43.6153 65.2277 36.7304 67.6098 27.7701 67.6098C18.8099 67.6098 11.925 65.2953 7.11548 60.6663C2.37183 56.0036 3.8147e-06 49.2967 3.8147e-06 40.5456V4.82927C3.8147e-06 2.16213 1.96995 0 4.4 0H13.2405C15.6705 0 17.6405 2.16214 17.6405 4.82927V39.1265C17.6405 43.7892 18.4805 47.2018 20.1605 49.3642C21.8735 51.5267 24.4759 52.6079 27.9678 52.6079C31.4596 52.6079 34.0127 51.5436 35.6268 49.4149C37.241 47.2863 38.0481 43.8399 38.0481 39.0758V4.82927Z"
+          ></path>
+          <path
+            d="M86.9 61.8682C86.9 64.5353 84.9301 66.6975 82.5 66.6975H73.6595C71.2295 66.6975 69.2595 64.5353 69.2595 61.8682V4.82927C69.2595 2.16214 71.2295 0 73.6595 0H82.5C84.9301 0 86.9 2.16214 86.9 4.82927V61.8682Z"
+          ></path>
+          <path
+            d="M2.86102e-06 83.2195C2.86102e-06 80.5524 1.96995 78.3902 4.4 78.3902H83.6C86.0301 78.3902 88 80.5524 88 83.2195V89.1707C88 91.8379 86.0301 94 83.6 94H4.4C1.96995 94 0 91.8379 0 89.1707L2.86102e-06 83.2195Z"
+          ></path>
+      </div>
+    </div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+  
+  
+</div>
+<div class="conteiner" >
+
+    <!-- navbar  -->
+    <nav class="navbar ">
+        <div class="navbar-container">
+            
+            <button class="navbar-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="navbar-menu">
+                <li><a href="index.phpl" class="lamp">خانه</a></li>
+                <li><a href="#firstMusic" class="lamp">بهترین موزیک </a></li>
+                <li><a href="#Albums" class="lamp">آلبوم ها</a></li>
+                <li><a href="#" class="lamp">درباره</a></li>
+                <li><a asp-action="Login" asp-controller="Admin" class="lamp">پنل مدیر</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="جستجو کنید...">
+                <div class="result-container">
+        
+                    <div id="resultsContainer">
+                        <!-- نتایج جستجو اینجا نمایش داده می‌شوند -->
+                    </div>
+                </div>
+            </div>
+
+            <a href="index.html" class="navbar-logo"><img src="Images/logo/R_logo.png" alt="" style="width: 70px;"></a>
+        </div>
+
+    </nav>
+<main>
+    @RenderBody()
+</main>
+
+<div class="container-abu">
+
+    <div class="containerA1">
+        <a href="https://www.instagram.com/radin2008official?igsh=dWE4Y3c4Zmx2eDM0" class="abuot">
+
+
+            <div class="cardssss" style="--color: #ef476f;"  >
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <div class="title">Instegram</div>
+                <div class="description">من در اینستگرام؛ تیکه  هایی موزیک ،و فعالیت برنامه نویسی مو ارائه میدهم فعالیت چندانی ندارم، با فالو کردن روحیه مو تقویت کنید . </div>
+            </div>
+
+        </a>
+        <a href="https://soundcloud.com/user-757535903?ref=clipboard&p=a&c=1&si=f6ac030cf7eb413ab6f32565cea9079f&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" class="abuot">
+
+
+            <div class="cardssss" style="--color: #ffd23f;"  >
+                <i class="fa fa-soundcloud" aria-hidden="true"></i>
+                <div class="title">SoundCloud</div>
+                <div class="description">تمامی موزیک های خود را در ساند کلاد آپلود میکنم. <br>آنجا هم میتوانید  کارهای من را گوش کنید...</div>
+            </div>
+        </a>
+        </div>
+            <div class="containerA2">
+                <a href="https://t.me/Khode333khoda" class="abuot">
+
+
+
+                    <div class="cardssss" style="--color: #00a6ed;" >
+                        <i class="fa fa-telegram" aria-hidden="true"></i>
+                        <div class="title">Telegram</div>
+                        <div class="description">اگر برای دانلود موزیک هایم، صحبت یا هر چیز دیگر... <br> به من در تلگرام پیام دهید.</div>
+                    </div>
+                    
+                </a>
+                <a href="https://github.com/mohammadHasanHakemi" class="abuot">
+
+
+                    <div class="cardssss" style="--color: #8812d6;">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                        <div class="title">GitHub</div>
+                        <div class="description">پروژه های برنامه نویسیم به طور open source اینجا آپلود میشود.</div>
+                    </div>
+                </a>
+    </div>
+</div>
+</div>
+    @RenderSection("musicplayer", required: false)
+<!-- <script src="Scripts/tailwind.js"></script> -->
+<script>
+    console.log('<?php echo $isLiked ?>');
+                console.log(document.getElementById('likes'+24));
+    function addView(musicId) {
+    console.log('sidsddsddhfkdjf',musicId);
+    fetch('add_view.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ music_id: musicId })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // به‌روزرسانی تعداد بازدیدها در صفحه
+            document.getElementById('views-' + musicId).textContent = data.views;
+        }
+    })
+    .catch(error => {
+        console.error('خطا:', error);
+    });
+}
+
+function toggleLike(musicId) {
+    fetch('toggle_like.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ music_id: musicId })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // به‌روزرسانی تعداد لایک‌ها و حالت قلب
+            console.log(document.getElementById('likes' + musicId));
+            console.log('likes'+musicId);
+            document.getElementById('likes' + musicId).textContent = data.likes;
+            const heart = document.getElementById('heart' + musicId);
+            heart.textContent = data.liked ? '🧡' : '🤍';
+        }
+    })
+    .catch(error => {
+        console.error('خطا:', error);
+    });
+}
+
+
+</script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

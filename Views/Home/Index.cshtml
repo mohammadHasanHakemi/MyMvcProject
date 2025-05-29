@@ -1,0 +1,215 @@
+﻿@model MyMvcProject.Models.AlbumMusicViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+@section MetaTags {
+ <meta name="description" content="وبسایت اختصاصی راد، هدف من از ساخت این وبسایت از بین بردن واسطه ها و ارتباط مستقیم با آرتیست مورد علاقه است.موزیک های خودم در این وبسایت، رایگان آپلود شده است">
+    
+    <!-- کلمات کلیدی (اختیاری، اما مفید) -->
+    <meta name="keywords" content="رادین, موزیک, آهنگ, راد,Radineh, RADMW, Radin Musics Web, دانلود آهنگ, موزیک جدید">
+    
+    <!-- نویسنده و مالک سایت -->
+    <meta name="author" content="رادین (Radin)">
+    
+    <!-- Open Graph Meta Tags (برای اشتراک‌گذاری در شبکه‌های اجتماعی) -->
+    <meta property="og:title" content="Radin Musics Web (RADMW)">
+    <meta property="og:description" content="دانلود و پخش موزیک‌های اختصاصی رادین اورجینال">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://radmw.com">
+    <meta property="og:image" content="https://radmw.com/images/logo.jpg">
+    <link rel="canonical" href="http://radmw.ir">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+}
+
+        <div class="content">
+            <div class="first-music-c" >
+                <img src="Images/end.jpg" alt="poster of music" class="fimage  rounded-3xl border-2  shadow-lg shadow-violet-500/50 border-white">
+                <div class="property-f-Music">
+                    <h1>
+                        <a name="firstMusic" class="ali">
+                            موزیک رادین
+                        </a>
+    
+                    </h1>
+                    <p class="discrip"> موزیک های سبک رپ،آر اند بی(R&B)،هیپ هاپ اختصاصی رادین</p>
+                    <!-- <div class="btn-music">
+                        <button class="Play">پخش</button>
+                    </div> -->
+                    
+                </div>
+            </div>
+            <!-- <div class="myPropertyCount">
+                <h2>رادین کیست؟</h2>
+                <P class="myProperty">
+                به نام نور ایزدی
+    اینجانب محمد حسن حاکمی ملقب به رادین،برنامه نویس وب و سئو کار هستم.از سنین پایین علاقه مند به موزیک و خوانندگی بودم.اوایل اطرافیانم من را مسخره میکردند.ولی بعد از مدتی؛ دیگر کسی من را مسخره نکرد...
+    از آن پس تصمیم گرفتم که موزیک های خودم را در فضای مجازی: اینستگرام و ساندکلاد به اشتراک بگذارم؛ موزیک "شب برفی" به مناسبت شب یلدا سال 1403 محبوب ترین موزیک من شد. و به زودی آلبوم تغییر از "رادین" منتشر خواهد شد.
+    با یادگیری برنامه نویسی وب تصمیم گرفتم وبسایت شخصی خودمو با نام <abbr title="radin Musci's Web">«راد ام وی (radmw) »</abbr> بسازم. تا هم در قالب پروژه مهارت های خود را افزایش بدهم و هم رزومه ای برای خودم بسازم.
+    
+    متن،و تنظیم موزیک ها کاملا از خودم هستش و کاور نمیکنم.
+    
+                </P>
+            </div> -->
+                    <!-- top 5 musics -->
+            <div class="top5Musics">
+                <h2>
+                    پنج موزیک اخیر
+                </h2>
+                @if(Model.Musics!=null&&Model.Albums!= null&&Model.Musics.Any()){
+
+                    @for(int i = 0;i< Model.Musics.Count;i++){
+                        var Music = Model.Musics[i];
+                        @if(i%2!=0){
+                             @Html.Raw("<div class='flex flex-row '>")
+                        }
+
+                <div class="topMusic song lamp active view-button @(i == 1 || i == 2 ? "flex-1" : "")" data-src="/Upload/@Music.MusicPath" data-poster="/Upload/@Music.PosterPath" data-name="@Music.Name"
+                 data-album="@Music.Album.Name" onclick="addView(@Music.Id)" >   
+                           <div class="poster-property">
+    
+                               <span class="num">
+                                @i
+                               </span>
+
+                               <img src="~/Upload/@Music.PosterPath" alt="" class="hiddenposter">
+                               <div class="propertyTopMusic">
+                                <a id="p2" name="p1">
+    
+    
+                                  <h3 id="tiitle-@i" name="tiitle-@i">@Music.Name</h3>
+                     </a>
+                               <p class="p">@Music.Album.Name</p>
+                               </div>
+                               <div class="gifcont">
+                                <img src="Images/Mplay.png" alt="" class="gifplay">
+                               </div>
+    
+                           </div> 
+                           <div class="like-time">
+                               <p></p>
+                               <div class="like-play">
+ 
+
+                                   <button class="stopdown "   >
+    
+                                       <img src="Images/icons/play2.png" alt="" class="imgplay">
+                                   </button>
+
+                               </div>
+                            </div>  
+                </div>
+                        @if(i%2==0 && i!=0){
+                             @Html.Raw("</div>")
+                        }
+                    }
+    
+                }
+                else{
+                   @Html.Raw("<p class='text-white'>موزیکی یافت نشد</p>") 
+                }
+            </div>
+            <!-- Albums  -->
+            <a class="text-for-slider ali" name="Albums">
+                
+                    آلبوم ها
+                
+            </a>
+            <div class="container">
+                
+                <div class="cards">
+                    <div class="item">
+                        <img src="" alt="image1">
+                        
+                    </div>
+                    <div class="item">
+                        <img src="" alt="image2">
+                    </div>
+                    <div class="item">
+                        <img src="./images/Captain America.png" alt="image3">
+                    </div>
+    
+                </div>
+                <div class="buttons">
+                    <div class="next btn"></div>
+                    <div class="prev btn"></div>
+                </div>
+    
+            </div>
+    
+            <div class="nextcontent">
+                <div class="propertyAlbums">
+                    <div class="prop-one-Album">
+                        <h3>تغییر</h3>
+                        <p>اولین آلبوم رسمی من</p>
+                    </div>
+                    <div class="prop-one-Album">
+                        <h3>مرز تاریک</h3>
+                        <p>بیشتر تکس هایش را نوشتم در سبک رپ اعتراضی و گنگ است</p>
+                    </div>
+                    <div class="prop-one-Album">
+                        <h3>به زودی</h3>
+                        <p>برای اسم و سبک این آهنگ در تلگرام پیام دهید</p>
+                    </div>
+                    <!-- <div class="prop-one-Album">
+                        <h3>ییر</h3>
+                        <p>اولین آلبوم رsdssسمی من</p>
+                    </div>
+                    <div class="prop-one-Album">
+                        <h3>شهوت</h3>
+                        <p>اولین آلبوم رسمی من</p>
+                    </div>
+                    <div class="prop-one-Album">
+                        <h3>حسرت</h3>
+                        <p>اولین آلبوم رسمی من</p>
+                    </div>
+                    <div class="prop-one-Album">
+                        <h3>بیعت</h3>
+                        <p>اولین آلبوم رسمی من</p>
+                    </div>
+                    <div class="prop-one-Album">
+                        <h3>بیعت</h3>
+                        <p>اولین آلبوم رسمی من</p>
+                    </div> -->
+    
+                </div>
+    
+                <div class="prev btn"></div>
+            </div>
+    
+            
+            </div>
+            @section musicplayer{
+                <footer></footer>
+    <div id="music-player">
+        <div class="p-v">
+
+
+            <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+            <div id="poster-container">
+                <img src="~/Upload/@Model.Musics[0].PosterPath" id="poster" alt="Poster">
+            </div>
+        </div>
+        <div class="text-container">
+            <h2 class="text">حال</h2>
+            <p class="prop"> تغییر</p>
+        </div>
+        <audio id="audio" src="~/Upload/@Model.Musics[0].MusicPath"></audio>
+        <div class="btncont">
+            <button id="stop"><img src="Images/icons/moraba.png" class="moraba"></button>
+            <button id="play-pause"><img src="Images/icons/play.png" id="imgPlay" class="imgplay"></button>
+
+        </div>
+
+        <div class="timeline">
+            <div id="time-display">
+                <span id="current-time">0:00</span> / <span id="duration">0:00</span>
+            </div>
+            <div id="timeline-container">
+                <input type="range" id="timeline" min="0" max="100" value="0">
+            </div>
+        </div>
+        <!-- پوستر موزیک -->
+
+    </div>
+</footer>
+            }

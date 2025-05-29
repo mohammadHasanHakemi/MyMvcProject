@@ -1,0 +1,71 @@
+@{
+    Layout = "~/Views/Shared/_Dashboard.cshtml" ;
+}
+
+
+        <!-- Main Content -->
+        <main class="flex-1 p-8">
+            <header class="bg-white shadow rounded-lg p-6 mb-8">
+                <h1 class="text-2xl font-bold text-gray-800">خوش آمدید</h1>
+                <p class="text-gray-600">پنل مدیریت سیستم</p>
+            </header>
+
+            <!-- Stats Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                <div class="bg-white rounded-lg shadow p-6">
+                    <h3 class="text-gray-500 text-sm">کاربران فعال</h3>
+                    <p class="text-2xl font-bold text-gray-800">۲,۴۵۳</p>
+                </div>
+                <div class="bg-white rounded-lg shadow p-6">
+                    <h3 class="text-gray-500 text-sm">فروش امروز</h3>
+                    <p class="text-2xl font-bold text-gray-800">۱۲,۵۰۰,۰۰۰ تومان</p>
+                </div>
+                <div class="bg-white rounded-lg shadow p-6">
+                    <h3 class="text-gray-500 text-sm">سفارشات جدید</h3>
+                    <p class="text-2xl font-bold text-gray-800">۱۵۶</p>
+                </div>
+                <div class="bg-white rounded-lg shadow p-6">
+                    <h3 class="text-gray-500 text-sm">بازدید امروز</h3>
+                    <p class="text-2xl font-bold text-gray-800">۸,۷۶۵</p>
+                </div>
+            </div>
+
+            <!-- Recent Activity -->
+            <div class="bg-white rounded-lg shadow p-6">
+                <h2 class="text-xl font-bold text-gray-800 mb-4">فعالیت‌های اخیر</h2>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full">
+                        <thead>
+                            <tr class="bg-gray-50">
+                                <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">کاربر</th>
+                                <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">عملیات</th>
+                                <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">زمان</th>
+                                <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">وضعیت</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-white divide-y divide-gray-200">
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap">علی محمدی</td>
+                                <td class="px-6 py-4 whitespace-nowrap">ثبت سفارش جدید</td>
+                                <td class="px-6 py-4 whitespace-nowrap">۱۰ دقیقه پیش</td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                        تکمیل شده
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap">مریم احمدی</td>
+                                <td class="px-6 py-4 whitespace-nowrap">ویرایش پروفایل</td>
+                                <td class="px-6 py-4 whitespace-nowrap">۳۰ دقیقه پیش</td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
+                                        در حال انجام
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>

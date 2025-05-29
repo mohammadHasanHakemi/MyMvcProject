@@ -1,0 +1,617 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\MyMvcProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MyMvcProject.066ot314b1.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\BKAMRANO.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\BKAMRANO.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\BKOODAKO.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\BKOODAKO.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\DimaYekanOutline-(www.FarsGraphic.com)-7s.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\DimaYekanOutline-(www.FarsGraphic.com)-7s.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\Far_KamranO.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\Far_KamranO.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\HF Nastaleeq.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\HF Nastaleeq.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\IranNastaliq Web.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\IranNastaliq Web.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\Samim.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\Samim.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\Vazir-Bold.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\Vazir-Bold.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\YekanBakh-VF.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\YekanBakh-VF.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\CHANGELOG.md",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\CHANGELOG.md"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-Bold-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-Bold-FD-WOL.eot"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-Bold-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-Bold-FD-WOL.ttf"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-Bold-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-Bold-FD-WOL.woff"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-Bold-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-Bold-FD-WOL.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-FD-WOL.eot"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-FD-WOL.ttf"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-FD-WOL.woff"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-FD-WOL.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-Light-FD-WOL.eot",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-Light-FD-WOL.eot"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-Light-FD-WOL.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-Light-FD-WOL.ttf"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-Light-FD-WOL.woff",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-Light-FD-WOL.woff"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-Light-FD-WOL.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits-Without-Latin\\Shabnam-Light-FD-WOL.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-Bold-FD.eot",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-Bold-FD.eot"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-Bold-FD.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-Bold-FD.ttf"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-Bold-FD.woff",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-Bold-FD.woff"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-Bold-FD.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-Bold-FD.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-FD.eot",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-FD.eot"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-FD.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-FD.ttf"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-FD.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-FD.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-Light-FD.eot",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-Light-FD.eot"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-Light-FD.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-Light-FD.ttf"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-Light-FD.woff",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-Light-FD.woff"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-Light-FD.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Farsi-Digits\\Shabnam-Light-FD.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\LICENSE",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\README.md",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\README.md"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Shabnam-Bold.eot",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Shabnam-Bold.eot"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Shabnam-Bold.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Shabnam-Bold.ttf"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Shabnam-Bold.woff",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Shabnam-Bold.woff"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Shabnam-Bold.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Shabnam-Bold.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Shabnam-Light.eot",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Shabnam-Light.eot"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Shabnam-Light.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Shabnam-Light.ttf"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Shabnam-Light.woff",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Shabnam-Light.woff"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Shabnam.eot",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Shabnam.eot"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Shabnam.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Shabnam.ttf"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Shabnam.woff",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Shabnam.woff"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Shabnam.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Shabnam.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-Bold-WOL.eot",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-Bold-WOL.eot"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-Bold-WOL.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-Bold-WOL.ttf"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-Bold-WOL.woff",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-Bold-WOL.woff"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-Bold-WOL.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-Bold-WOL.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-Light-WOL.eot",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-Light-WOL.eot"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-Light-WOL.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-Light-WOL.ttf"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-Light-WOL.woff",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-Light-WOL.woff"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-Light-WOL.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-Light-WOL.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-WOL.eot",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-WOL.eot"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-WOL.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-WOL.ttf"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-WOL.woff",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-WOL.woff"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-WOL.woff2",
+      "PackagePath": "staticwebassets\\Fonts\\shabnam-font-v2.4.0\\Without-Latin\\Shabnam-WOL.woff2"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Fonts\\texts.docx",
+      "PackagePath": "staticwebassets\\Fonts\\texts.docx"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Images\\Mplay.gif",
+      "PackagePath": "staticwebassets\\Images\\Mplay.gif"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Images\\Mplay.png",
+      "PackagePath": "staticwebassets\\Images\\Mplay.png"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Images\\background\\3460082.jpg",
+      "PackagePath": "staticwebassets\\Images\\background\\3460082.jpg"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Images\\end.jpg",
+      "PackagePath": "staticwebassets\\Images\\end.jpg"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Images\\icons\\moraba.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\moraba.png"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Images\\icons\\paused.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\paused.png"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Images\\icons\\play.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\play.png"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Images\\icons\\play1.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\play1.png"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Images\\icons\\play2.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\play2.png"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Images\\logo\\RMW-logo.ico",
+      "PackagePath": "staticwebassets\\Images\\logo\\RMW-logo.ico"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Images\\logo\\R_logo.png",
+      "PackagePath": "staticwebassets\\Images\\logo\\R_logo.png"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Images\\logo\\Untitled-1.ico",
+      "PackagePath": "staticwebassets\\Images\\logo\\Untitled-1.ico"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Images\\logo\\Untitled-1.png",
+      "PackagePath": "staticwebassets\\Images\\logo\\Untitled-1.png"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Images\\logo\\emza-RMW.png",
+      "PackagePath": "staticwebassets\\Images\\logo\\emza-RMW.png"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Images\\logo\\favicon.png",
+      "PackagePath": "staticwebassets\\Images\\logo\\favicon.png"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Images\\logo\\vecteezy_headphone-icon-illustration_47373860.png",
+      "PackagePath": "staticwebassets\\Images\\logo\\vecteezy_headphone-icon-illustration_47373860.png"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Upload\\0ac57ca1-ee95-4e08-8a04-609aa3f0ecf4.mp3",
+      "PackagePath": "staticwebassets\\Upload\\0ac57ca1-ee95-4e08-8a04-609aa3f0ecf4.mp3"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Upload\\19a8e70e-e5e2-4a86-b1c4-a7c66b4c77a6.mp3",
+      "PackagePath": "staticwebassets\\Upload\\19a8e70e-e5e2-4a86-b1c4-a7c66b4c77a6.mp3"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Upload\\3dfee810-bfa0-4c35-b843-869049d7d849.jpg",
+      "PackagePath": "staticwebassets\\Upload\\3dfee810-bfa0-4c35-b843-869049d7d849.jpg"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Upload\\5a21d9c1-aa5a-494f-8115-715619f8c640.jpg",
+      "PackagePath": "staticwebassets\\Upload\\5a21d9c1-aa5a-494f-8115-715619f8c640.jpg"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Upload\\6b144ca7-0fdf-49f5-9103-98f038a483c1.mp3",
+      "PackagePath": "staticwebassets\\Upload\\6b144ca7-0fdf-49f5-9103-98f038a483c1.mp3"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Upload\\6ec87c16-cab5-495b-a954-3cc549ad4d09.png",
+      "PackagePath": "staticwebassets\\Upload\\6ec87c16-cab5-495b-a954-3cc549ad4d09.png"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Upload\\83d541f6-81ef-4516-af36-0cf8a19166f5.png",
+      "PackagePath": "staticwebassets\\Upload\\83d541f6-81ef-4516-af36-0cf8a19166f5.png"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Upload\\a1e4a256-77ac-4ae4-a16b-ca7f37e45f63.jpg",
+      "PackagePath": "staticwebassets\\Upload\\a1e4a256-77ac-4ae4-a16b-ca7f37e45f63.jpg"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\Upload\\a602e98e-38c5-496e-a168-1ba3d1593fff.mp3",
+      "PackagePath": "staticwebassets\\Upload\\a602e98e-38c5-496e-a168-1ba3d1593fff.mp3"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MyMvcProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MyMvcProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.MyMvcProject.props",
+      "PackagePath": "build\\MyMvcProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.MyMvcProject.props",
+      "PackagePath": "buildMultiTargeting\\MyMvcProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.MyMvcProject.props",
+      "PackagePath": "buildTransitive\\MyMvcProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

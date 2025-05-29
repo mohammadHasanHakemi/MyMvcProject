@@ -1,0 +1,50 @@
+@model MyMvcProject.Models.AddMusic
+@{
+    Layout = "~/Views/Shared/_Dashboard.cshtml" ;
+}
+        <!-- Main Content -->
+        <main class="flex-1 p-8">
+            <header class="bg-white shadow rounded-lg p-6 mb-8">
+                <h1 class="text-2xl font-bold text-gray-800">فرم موزیک</h1>
+            </header>
+            <div class="bg-white rounded-lg shadow p-6 max-w-xl mx-auto">
+                <form action="AddMusic" method="post" enctype="multipart/form-data">
+                    <div class="mb-4">
+                        <label class="block text-gray-700 mb-2" for="name">نام موزیک</label>
+                        <input asp-for="Music.Name" type="text" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    </div>
+                    <div class="mb-4">
+                        <label class="block text-gray-700 mb-2" for="name">توضیحات</label>
+                        <input asp-for="Music.Property" type="text" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-gray-700 mb-2" for="avatar">آدرس تصویر</label>
+                        <input id="posterFile" name="posterFile" type="file"  accept="image/*" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div class="mb-6">
+                        <label class="block text-gray-700 mb-2" for="avatar">آدرس فایل صوتی</label>
+                        <input id="musicfile" name="musicFile" type="file"  accept="audio/*" class="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                            <div class="mb-4">
+            <label>آلبوم</label>
+            <select asp-for="Music.AlbumId" class="w-full border rounded p-2">
+                <option value="">انتخاب آلبوم</option>
+                @foreach (var album in Model.Albums)
+                {
+                    <option value="@album.Id">@album.Name</option>
+                }
+            </select>
+        </div>
+
+                  
+                    <div class="flex justify-between">
+                        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">ذخیره</button>
+                        <a asp-action="Musics" asp-controller="Musics" class="bg-gray-300 text-gray-800 px-6 py-2 rounded hover:bg-gray-400 transition">انصراف</a>
+                    </div>
+                </form>
+                    @if (ViewBag.Error != null)
+                    {
+                        <div class="text-red-800">@ViewBag.Error</div>
+                    }
+            </div>
+        </main>

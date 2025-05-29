@@ -1,0 +1,107 @@
+@model MyMvcProject.Models.AlbumMusicViewModel
+@{
+    Layout = "~/Views/Shared/_Dashboard.cshtml" ;
+}
+
+        <!-- Main Content -->
+        <main class="flex-1 p-8">
+            <header class="bg-white shadow rounded-lg p-6 mb-8">
+                <h1 class="text-2xl font-bold text-gray-800">مدیریت آلبوم ها</h1>
+                <p class="text-gray-600">لیست تمام آلبوم های  سایت</p>
+            </header>
+
+            <!-- Search and Filter -->
+            <div class="bg-white rounded-lg shadow p-6 mb-8">
+                <div class="flex flex-wrap gap-4">
+                    <div class="flex-1">
+                        <input type="text" placeholder="جستجوی آلبوم..." class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <select class="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            <option value="">همه وضعیت‌ها</option>
+                            <option value="active">فعال</option>
+                            <option value="inactive">غیرفعال</option>
+                        </select>
+                    </div>
+                    <div>
+                        <a class="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-600 transition duration-200 " asp-action="AddAlbum" asp-controller="Albums">
+                           آلبوم جدید
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Users Table -->
+            <div class="bg-white rounded-lg shadow overflow-hidden">
+                          @if (Model.Albums != null && Model.Albums.Any()){
+                         int i = 0;
+                <table class="min-w-full">
+                    <thead>
+                        <tr class="bg-gray-50">
+                            <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">شماره</th>
+                            <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">آیدی</th>
+                            <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">نام کاربر</th>
+                            <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">کاور آلبوم</th>
+                            <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">تنظیمات</th>
+
+
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200">
+
+                        @foreach(var Album in Model.Albums)
+                        {
+                            i++;
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="flex items-center">
+                                    <div class="mr-4">
+                                        <div class="text-sm font-medium text-gray-900">@(i)</div>    
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="flex items-center">
+                                    <div class="mr-4">
+                                        <div class="text-sm font-medium text-gray-900">@(Album.Id)</div>    
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <div class="flex items-center">
+                                    <div class="mr-4">
+                                        <div class="text-sm font-medium text-gray-900">@Album.Name</div>    
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><img src="~/Upload/@Album.PosterPath" alt="" class="w-16"></td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
+                                <a asp-action="EditAlbum" asp-controller="Albums" asp-route-id="@Album.Id" class="text-blue-600 hover:text-blue-900 ml-3">ویرایش</a>
+   <a href="#" onclick="if (confirm('آیا از حذف آلبوم مطمئن هستید؟')) { document.getElementById('delete-form-@Album.Id').submit(); }"
+               class="text-red-600 hover:text-red-800">حذف</a>
+
+            <form id="delete-form-@Album.Id"
+                  asp-action="DeleteAlbum"
+                  asp-controller="Albums"
+                  asp-route-id="@Album.Id"
+                  method="post"
+                  style="display:none;">
+                @Html.AntiForgeryToken()
+            </form>
+                            </td>
+                        </tr>
+
+                        }
+
+                     
+
+                    </tbody>
+                </table>
+                          }
+                    else{
+                   @Html.Raw("<p class='mr-4'>آلبومی یافت نشد</p>") 
+                }
+            </div>
+
+
+        </main>
