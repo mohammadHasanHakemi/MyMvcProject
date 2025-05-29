@@ -125,56 +125,6 @@
 </div>
     @RenderSection("musicplayer", required: false)
 <!-- <script src="Scripts/tailwind.js"></script> -->
-<script>
-    console.log('<?php echo $isLiked ?>');
-                console.log(document.getElementById('likes'+24));
-    function addView(musicId) {
-    console.log('sidsddsddhfkdjf',musicId);
-    fetch('add_view.php', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ music_id: musicId })
-    })
-    .then(response => response.json())
-    .then(data => {
-        if (data.success) {
-            // به‌روزرسانی تعداد بازدیدها در صفحه
-            document.getElementById('views-' + musicId).textContent = data.views;
-        }
-    })
-    .catch(error => {
-        console.error('خطا:', error);
-    });
-}
-
-function toggleLike(musicId) {
-    fetch('toggle_like.php', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ music_id: musicId })
-    })
-    .then(response => response.json())
-    .then(data => {
-        if (data.success) {
-            // به‌روزرسانی تعداد لایک‌ها و حالت قلب
-            console.log(document.getElementById('likes' + musicId));
-            console.log('likes'+musicId);
-            document.getElementById('likes' + musicId).textContent = data.likes;
-            const heart = document.getElementById('heart' + musicId);
-            heart.textContent = data.liked ? '🧡' : '🤍';
-        }
-    })
-    .catch(error => {
-        console.error('خطا:', error);
-    });
-}
-
-
-</script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

@@ -338,11 +338,11 @@ width: 4rem;
     background-color:rgba(52, 58, 53, 0.3);
 }
 .topMusic:hover h3
-,.topMusic.active h3{
+,.topMusic.musicactive h3{
 color: #ff4545;    
 }
 .topMusic:hover .p,
-.topMusic.active .p{
+.topMusic.musicactive .p{
     color: rgb(252, 193, 0) ;    
 }
 
@@ -352,7 +352,7 @@ color: #ff4545;
         margin: auto 0px;
         display: none;
 }
-.topMusic.active .gifplay{
+.topMusic.musicactive .gifplay{
     display: block;
 }
 

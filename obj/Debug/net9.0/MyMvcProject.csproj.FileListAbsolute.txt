@@ -282,7 +282,6 @@ E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\compressed\dja7j7
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\compressed\h1dnnyknmo-xlcx1tzbzb.gz
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\compressed\30j8ruft14-x3aocd8bc1.gz
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\compressed\e69gbj37fy-r9i7ykcjnu.gz
-E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\compressed\gnvvb3vjk5-nymjt5uozh.gz
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\compressed\dn842m5xwg-bqjiyaj88i.gz
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\compressed\s96quaathj-c2jlpeoesf.gz
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\compressed\jrlnertwct-erw9l3u2r3.gz
@@ -360,4 +359,5 @@ E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\MyMvcProject.pdb
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\MyMvcProject.genruntimeconfig.cache
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\ref\MyMvcProject.dll
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\MyMvcProject.sourcelink.json
-E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\compressed\62232eev15-c5198xrzbv.gz
+E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\compressed\62232eev15-71s5524o1h.gz
+E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\compressed\gnvvb3vjk5-5wqem6ryii.gz

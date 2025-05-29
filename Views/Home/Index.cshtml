@@ -26,7 +26,7 @@
                 <img src="Images/end.jpg" alt="poster of music" class="fimage  rounded-3xl border-2  shadow-lg shadow-violet-500/50 border-white">
                 <div class="property-f-Music">
                     <h1>
-                        <a name="firstMusic" class="ali">
+                        <a name="firstMusic" class="ali ">
                             موزیک رادین
                         </a>
     
@@ -63,8 +63,7 @@
                              @Html.Raw("<div class='flex flex-row '>")
                         }
 
-                <div class="topMusic song lamp active view-button @(i == 1 || i == 2 ? "flex-1" : "")" data-src="/Upload/@Music.MusicPath" data-poster="/Upload/@Music.PosterPath" data-name="@Music.Name"
-                 data-album="@Music.Album.Name" onclick="addView(@Music.Id)" >   
+                <div class="songcontainer topMusic  view-button @(i == 1 || i == 2 ? "flex-1" : "")" >   
                            <div class="poster-property">
     
                                <span class="num">
@@ -97,11 +96,14 @@
                                                 </svg>
                                             </div>
                                         </label>
-                                    
-                                   <button class="stopdown mt-auto mb-auto "   >
-    
-                                       <img src="Images/icons/play2.png" alt="" class="imgplay">
-                                   </button>
+                                        <button class="song" data-src="/Upload/@Music.MusicPath" data-poster="/Upload/@Music.PosterPath" data-name="@Music.Name"
+                                                data-album="@Music.Album.Name">
+                                            <div class="stopdown mt-auto mb-auto">
+                                                <img src="Images/icons/play2.png" alt="" class="imgplay">
+                                                <img src="Images/Mplay.png" alt="" class="gifplay" style="display:none;">
+                                            </div>
+                                        </button>
+
 
                                </div>
                             </div>  

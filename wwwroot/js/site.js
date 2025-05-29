@@ -113,10 +113,11 @@ document.getElementById('searchInput').addEventListener('input', function() {
 
 
 
-
 //music player
 document.addEventListener('DOMContentLoaded', function () {
+    
     const audio = document.getElementById('audio');
+
     const playPauseButton = document.getElementById('play-pause');
     const stopButton = document.getElementById('stop');
     const volumeControl = document.getElementById('volume');
@@ -127,128 +128,111 @@ document.addEventListener('DOMContentLoaded', function () {
     const durationDisplay = document.getElementById('duration');
     const text = document.querySelector('.text');
     const Album = document.querySelector('.prop');
-    let btnplay = document.querySelectorAll('.stopdown');
-    let imgplay = document.querySelector('.active .imgplay');
-    let allimgplay = document.querySelectorAll('.imgplay');
-    console.log(btnplay);
-    console.log(text);
-    console.log(Album);
-    // کنترل پخش و توقف موسیقی
-    playPauseButton.addEventListener('click', function () {
-        let gifplay = document.querySelector('.active .gifplay');
-        const img = document.getElementById('imgPlay');
-         imgplay = document.querySelector('.active .imgplay');
-        if (audio.paused) {
-            audio.play();
-            img.src = "Images/icons/paused.png";
-            gifplay.src = "Images/Mplay.gif";
-            imgplay.src = "Images/icons/play1.png";
-
-        } else {
-            audio.pause();
-            img.src = "Images/icons/play.png";
-            gifplay.src = "Images/Mplay.png";
-            imgplay.src = 'Images/icons/play2.png';
-        }
     
-    });
 
-    // توقف کامل موسیقی
+    let currentActiveButton = null; // دکمه آهنگ فعال فعلی
+
+    // هندل کلیک روی دکمه اصلی پلی لیست
+    songButtons.forEach(songBtn => {
+        
+        songBtn.addEventListener('click', function () {
+                        document.querySelectorAll('.songcontainer').forEach(container => {
+                container.classList.remove('musicactive');
+            });
+            const container = songBtn.closest('.songcontainer');
+            const songSrc = this.getAttribute('data-src');
+
+            const isSameSong = audio.src.includes(songSrc);
+
+            const posterSrc = this.getAttribute('data-poster');
+            const textsrc = this.getAttribute('data-name');
+            const propsrc = this.getAttribute('data-album');
+
+            // دکمه img مربوط به همین موزیک
+            const thisPlayBtn = container.querySelector('.imgplay');
+            const thisGif = container.querySelector('.gifplay');
+            container.classList.add('musicactive');
+            // همه دکمه‌ها رو ریست کن (حتی اگه آهنگ یکی باشه)
+            document.querySelectorAll('.imgplay').forEach(img => img.src = 'Images/icons/play2.png');
+
+            if (!isSameSong) {
+                // اگه موزیک متفاوت بود، دیتای جدید لود بشه
+                audio.src = songSrc;
+                posterContainer.src = posterSrc;
+                text.textContent = textsrc;
+                Album.textContent = propsrc;
+
+                audio.play();
+
+                document.getElementById('imgPlay').src = 'Images/icons/paused.png';
+                 thisGif.src = "Images/Mplay.gif";
+                 thisPlayBtn.src = 'Images/icons/play1.png';
+
+                currentActiveButton = this; // ذخیره آهنگ فعال
+
+            } else {
+                // اگه آهنگ فعلیه، فقط پلی/پاز بشه
+                if (audio.paused) {
+                    audio.play();
+                    document.getElementById('imgPlay').src = 'Images/icons/paused.png';
+                     thisGif.src = "Images/Mplay.gif";
+                    thisPlayBtn.src = 'Images/icons/play1.png';
+                } else {
+                    audio.pause();
+                    document.getElementById('imgPlay').src = 'Images/icons/play.png';
+                    thisGif.src = "Images/Mplay.png";
+                     thisPlayBtn.src = 'Images/icons/play2.png';
+                }
+            }
+        });
+    });
+playPauseButton.addEventListener('click',function(){
+                if (audio.paused) {
+                    audio.play();
+                    document.getElementById('imgPlay').src = 'Images/icons/paused.png';
+                    if (thisGif) thisGif.src = "Images/Mplay.gif";
+                    if (thisPlayBtn) thisPlayBtn.src = 'Images/icons/play1.png';
+                } else {
+                    audio.pause();
+                    document.getElementById('imgPlay').src = 'Images/icons/play.png';
+                    if (thisGif) thisGif.src = "Images/Mplay.png";
+                    if (thisPlayBtn) thisPlayBtn.src = 'Images/icons/play2.png';
+                }
+});
+    // دکمه توقف کامل
     stopButton.addEventListener('click', function () {
-        let gifplay = document.querySelector('.active .gifplay');
-        const img = document.getElementById('imgPlay');
         audio.pause();
         audio.currentTime = 0;
-        img.src = "Images/icons/play.png";
-        gifplay.src = "Images/Mplay.png";
+        document.getElementById('imgPlay').src = 'Images/icons/play.png';
+        if (currentActiveButton) {
+            const gif = currentActiveButton.querySelector('.gifplay');
+            const img = currentActiveButton.querySelector('.imgplay');
+            if (gif) gif.src = "Images/Mplay.png";
+            if (img) img.src = 'Images/icons/play2.png';
+        }
     });
-    // کنترل حجم صدا
-    volumeControl.addEventListener('input', function () { 
+
+    // کنترل صدا
+    volumeControl.addEventListener('input', function () {
         audio.volume = volumeControl.value;
     });
 
-    // تغییر موسیقی و پوستر با کلیک روی دکمه‌های پلی‌لیست
-    songButtons.forEach(button => {
-        button.addEventListener('click', function () {
-            const songSrc = button.getAttribute('data-src');
-            
-            
-            if(!audio.src.includes(songSrc)){
-                allimgplay.forEach((oneimgplay) => {
-                    oneimgplay.src = "Images/icons/play2.png";
-                })
-                const img = document.getElementById('imgPlay');
-                let gifplay = document.querySelector('.active .gifplay');
-                let imgPlay = document.querySelector('.active .imgplay');
-                // console.log(gifplay);
-
-                const posterSrc = button.getAttribute('data-poster');
-                const textsrc = button.getAttribute('data-name')
-                const propsrc = button.getAttribute('data-album')    // در غیر این صورت، موزیک جدید را پخش کنید
-                    audio.src = songSrc;
-                
-                    posterContainer.src = posterSrc; // تغییر پوستر
-                    text.textContent = textsrc;
-                    Album.textContent = propsrc;
-        
-        
-                    audio.play();
-                    // thisimg.src = 'Images/icons/play1.png'
-                    img.src = "Images/icons/paused.png";
-                    gifplay.src = "Images/Mplay.gif";
-                   
-                    imgPlay.src = "Images/icons/play1.png";
-                btnplay = document.querySelector('.active .stopdown');
-                // console.log(btnplay);
-            }
-
-            });
-
-    });
-        //گزینه استپ و پلی خود دیو
-btnplay.forEach(button=>{
-    button.addEventListener('click',function() {
-        let gifplay = document.querySelector('.active .gifplay');
-        const img = document.getElementById('imgPlay');
-         imgplay = document.querySelector('.active .imgplay');
-        if (audio.paused) {
-            audio.play();
-            img.src = "Images/icons/paused.png";
-            gifplay.src = "Images/Mplay.gif";
-            imgplay.src = "Images/icons/play1.png";
-
-        } else {
-            audio.pause();
-            img.src = "Images/icons/play.png";
-            gifplay.src = "Images/Mplay.png";
-            imgplay.src = 'Images/icons/play2.png';
-        }
-    
-    });
-});
-
-    // به‌روزرسانی تایم لاین و زمان نمایش
+    // به‌روزرسانی تایم‌لاین
     audio.addEventListener('timeupdate', function () {
         const currentTime = audio.currentTime;
         const duration = audio.duration;
-
-        // به‌روزرسانی مقدار تایم لاین
         timeline.value = (currentTime / duration) * 100;
-
-        // به‌روزرسانی زمان نمایش
         currentTimeDisplay.textContent = formatTime(currentTime);
-        if (!isNaN(duration)) {
-            durationDisplay.textContent = formatTime(duration);
-        }
+        if (!isNaN(duration)) durationDisplay.textContent = formatTime(duration);
     });
 
-    // کلیک روی تایم لاین برای رفتن به قسمت خاصی از موسیقی
+    // کلیک روی تایم‌لاین
     timeline.addEventListener('input', function () {
         const seekTime = (timeline.value / 100) * audio.duration;
         audio.currentTime = seekTime;
     });
 
-    // فرمت زمان به صورت دقیقه:ثانیه
+    // فرمت زمان
     function formatTime(time) {
         const minutes = Math.floor(time / 60);
         const seconds = Math.floor(time % 60);
