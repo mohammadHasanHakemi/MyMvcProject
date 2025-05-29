@@ -277,7 +277,6 @@ E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\MyMvcProject.Razo
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\scopedcss\bundle\MyMvcProject.styles.css
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\scopedcss\projectbundle\MyMvcProject.bundle.scp.css
-E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\compressed\62232eev15-k65uhv44ae.gz
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\compressed\v4m5nx68xo-61n19gt1b8.gz
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\compressed\dja7j7gjwm-lpewu3aoee.gz
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\compressed\h1dnnyknmo-xlcx1tzbzb.gz
@@ -360,3 +359,5 @@ E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\refint\MyMvcProje
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\MyMvcProject.pdb
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\MyMvcProject.genruntimeconfig.cache
 E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\ref\MyMvcProject.dll
+E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\MyMvcProject.sourcelink.json
+E:\My Projcts\coding\Asp\asp.net\MyMvcProject\obj\Debug\net9.0\compressed\62232eev15-c5198xrzbv.gz
