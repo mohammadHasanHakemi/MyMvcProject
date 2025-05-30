@@ -85,10 +85,11 @@
     
                            </div> 
                            <div class="like-time">
-                               <p></p>
+                               <p>Views: <span id="views-@Music.Id">0</span></p>
+                                <p>Likes: <span id="likes-@Music.Id">0</span></p>
                                <div class="like-play">
                                         <label class="likecontainer mt-auto mb-auto">
-                                            <input type="checkbox" class="like-checkbox">
+                                            <input type="checkbox" class="like-checkbox" id="like-checkbox-@Music.Id">
                                             <div class="checkmark">
                                                 <svg viewBox="0 0 256 256" class="w-full h-full">
                                                     <rect fill="none" width="256" height="256"></rect>
@@ -97,7 +98,7 @@
                                             </div>
                                         </label>
                                         <button class="song" data-src="/Upload/@Music.MusicPath" data-poster="/Upload/@Music.PosterPath" data-name="@Music.Name"
-                                                data-album="@Music.Album.Name">
+                                                data-album="@Music.Album.Name" id="play-btn-@Music.Id">
                                             <div class="stopdown mt-auto mb-auto">
                                                 <img src="Images/icons/play2.png" alt="" class="imgplay">
                                                 <img src="Images/Mplay.png" alt="" class="gifplay" style="display:none;">
@@ -222,4 +223,7 @@
 
     </div>
 </footer>
+            }
+            @section Scripts{
+                <script src="~/js/script.js" asp-append-version="true"></script>
             }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U7wSiV74fHjYbWuNdcVr00iUFXh4zZbHvaZp6gUjKI4=",
+  "Hash": "aN5YrGrOH8dON6GZ0LyQX0bhFVpsS8fxh9xyxXClWbA=",
   "Source": "MyMvcProject",
   "BasePath": "_content/MyMvcProject",
   "Mode": "Default",
@@ -710,12 +710,12 @@
       "OriginalItemSpec": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\obj\\Debug\\net9.0\\compressed\\gnvvb3vjk5-5wqem6ryii.gz",
+      "Identity": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\obj\\Debug\\net9.0\\compressed\\gnvvb3vjk5-qt89ir6jhf.gz",
       "SourceId": "MyMvcProject",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/MyMvcProject",
-      "RelativePath": "js/site#[.{fingerprint=5wqem6ryii}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=qt89ir6jhf}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -724,8 +724,8 @@
       "RelatedAsset": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0510vtn1oz",
-      "Integrity": "xMj73jhY7H1LEUv2O3lAyR8kdBPQ2A4t9pVba5okjFI=",
+      "Fingerprint": "f79net7f01",
+      "Integrity": "pd9AoNkWV3++AeoUB4DYV9RBAk2v8HaNoKp25j0wIm4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\js\\site.js"
@@ -3118,8 +3118,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5wqem6ryii",
-      "Integrity": "pV2zaQfXbfBNyfOR9dsU1uU9eFmW+Uhh5h/dRE2n8f8=",
+      "Fingerprint": "qt89ir6jhf",
+      "Integrity": "Eq1mWPEkk964gwmNZxdqrZ43+jiJ/j5QToHKE4C8C7c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -12228,13 +12228,13 @@
       ]
     },
     {
-      "Route": "js/site.5wqem6ryii.js",
-      "AssetFile": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\obj\\Debug\\net9.0\\compressed\\gnvvb3vjk5-5wqem6ryii.gz",
+      "Route": "js/site.js",
+      "AssetFile": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\obj\\Debug\\net9.0\\compressed\\gnvvb3vjk5-qt89ir6jhf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000369412634"
+          "Quality": "0.000368595651"
         }
       ],
       "ResponseHeaders": [
@@ -12244,19 +12244,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2706"
+          "Value": "2712"
         },
         {
           "Name": "ETag",
-          "Value": "\"xMj73jhY7H1LEUv2O3lAyR8kdBPQ2A4t9pVba5okjFI=\""
+          "Value": "\"pd9AoNkWV3++AeoUB4DYV9RBAk2v8HaNoKp25j0wIm4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 09:13:16 GMT"
+          "Value": "Thu, 29 May 2025 09:19:58 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -12272,26 +12272,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pV2zaQfXbfBNyfOR9dsU1uU9eFmW+Uhh5h/dRE2n8f8=\""
+          "Value": "W/\"Eq1mWPEkk964gwmNZxdqrZ43+jiJ/j5QToHKE4C8C7c=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "5wqem6ryii"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-pV2zaQfXbfBNyfOR9dsU1uU9eFmW+Uhh5h/dRE2n8f8="
+          "Value": "sha256-Eq1mWPEkk964gwmNZxdqrZ43+jiJ/j5QToHKE4C8C7c="
         }
       ]
     },
     {
-      "Route": "js/site.5wqem6ryii.js",
+      "Route": "js/site.js",
       "AssetFile": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -12301,7 +12293,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9867"
+          "Value": "9862"
         },
         {
           "Name": "Content-Type",
@@ -12309,11 +12301,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pV2zaQfXbfBNyfOR9dsU1uU9eFmW+Uhh5h/dRE2n8f8=\""
+          "Value": "\"Eq1mWPEkk964gwmNZxdqrZ43+jiJ/j5QToHKE4C8C7c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 09:13:16 GMT"
+          "Value": "Thu, 29 May 2025 09:19:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Eq1mWPEkk964gwmNZxdqrZ43+jiJ/j5QToHKE4C8C7c="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js.gz",
+      "AssetFile": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\obj\\Debug\\net9.0\\compressed\\gnvvb3vjk5-qt89ir6jhf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pd9AoNkWV3++AeoUB4DYV9RBAk2v8HaNoKp25j0wIm4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:19:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pd9AoNkWV3++AeoUB4DYV9RBAk2v8HaNoKp25j0wIm4="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.qt89ir6jhf.js",
+      "AssetFile": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\obj\\Debug\\net9.0\\compressed\\gnvvb3vjk5-qt89ir6jhf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000368595651"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2712"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pd9AoNkWV3++AeoUB4DYV9RBAk2v8HaNoKp25j0wIm4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:19:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Eq1mWPEkk964gwmNZxdqrZ43+jiJ/j5QToHKE4C8C7c=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qt89ir6jhf"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Eq1mWPEkk964gwmNZxdqrZ43+jiJ/j5QToHKE4C8C7c="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.qt89ir6jhf.js",
+      "AssetFile": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Eq1mWPEkk964gwmNZxdqrZ43+jiJ/j5QToHKE4C8C7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 09:19:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12323,7 +12460,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5wqem6ryii"
+          "Value": "qt89ir6jhf"
         },
         {
           "Name": "label",
@@ -12331,13 +12468,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pV2zaQfXbfBNyfOR9dsU1uU9eFmW+Uhh5h/dRE2n8f8="
+          "Value": "sha256-Eq1mWPEkk964gwmNZxdqrZ43+jiJ/j5QToHKE4C8C7c="
         }
       ]
     },
     {
-      "Route": "js/site.5wqem6ryii.js.gz",
-      "AssetFile": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\obj\\Debug\\net9.0\\compressed\\gnvvb3vjk5-5wqem6ryii.gz",
+      "Route": "js/site.qt89ir6jhf.js.gz",
+      "AssetFile": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\obj\\Debug\\net9.0\\compressed\\gnvvb3vjk5-qt89ir6jhf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12346,7 +12483,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2706"
+          "Value": "2712"
         },
         {
           "Name": "Content-Type",
@@ -12354,11 +12491,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xMj73jhY7H1LEUv2O3lAyR8kdBPQ2A4t9pVba5okjFI=\""
+          "Value": "\"pd9AoNkWV3++AeoUB4DYV9RBAk2v8HaNoKp25j0wIm4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 09:13:16 GMT"
+          "Value": "Thu, 29 May 2025 09:19:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12376,7 +12513,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5wqem6ryii"
+          "Value": "qt89ir6jhf"
         },
         {
           "Name": "label",
@@ -12384,144 +12521,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xMj73jhY7H1LEUv2O3lAyR8kdBPQ2A4t9pVba5okjFI="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js",
-      "AssetFile": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\obj\\Debug\\net9.0\\compressed\\gnvvb3vjk5-5wqem6ryii.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000369412634"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2706"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xMj73jhY7H1LEUv2O3lAyR8kdBPQ2A4t9pVba5okjFI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 09:13:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"pV2zaQfXbfBNyfOR9dsU1uU9eFmW+Uhh5h/dRE2n8f8=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-pV2zaQfXbfBNyfOR9dsU1uU9eFmW+Uhh5h/dRE2n8f8="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js",
-      "AssetFile": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9867"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pV2zaQfXbfBNyfOR9dsU1uU9eFmW+Uhh5h/dRE2n8f8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 09:13:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-pV2zaQfXbfBNyfOR9dsU1uU9eFmW+Uhh5h/dRE2n8f8="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js.gz",
-      "AssetFile": "E:\\My Projcts\\coding\\Asp\\asp.net\\MyMvcProject\\obj\\Debug\\net9.0\\compressed\\gnvvb3vjk5-5wqem6ryii.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2706"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xMj73jhY7H1LEUv2O3lAyR8kdBPQ2A4t9pVba5okjFI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 29 May 2025 09:13:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-xMj73jhY7H1LEUv2O3lAyR8kdBPQ2A4t9pVba5okjFI="
+          "Value": "sha256-pd9AoNkWV3++AeoUB4DYV9RBAk2v8HaNoKp25j0wIm4="
         }
       ]
     },
